@@ -7,12 +7,10 @@ export const Categorybar = styled.div`
 `
 
 export const ListGroup = styled.ul`
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
   padding-top:1rem;
-  width:90%;
+  width:100%;
   margin:auto;
+  position:relative;
 `;
 
 
@@ -21,6 +19,7 @@ export const ListGroupItem = styled.li`
    font-family:'Karla' , sans-serif;
    font-size:18px;
    cursor:pointer;
+  
    &:hover {
        color:blue;
    }

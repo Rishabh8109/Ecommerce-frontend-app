@@ -74,7 +74,7 @@ export const Dropdown = styled.div`
     position:absolute;
     top:180%;
     left:-5%;
-    z-index:1;
+    z-index:11;
     opacity:${({show}) => show ? 1 : 0};
     display:${({show}) => show ? 'block' : 'none'};
     transition : opacity  .1s ease-out;
