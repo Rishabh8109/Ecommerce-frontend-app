@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
-@import url('https://fonts.googleapis.com/css2?family=Karla');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 @import url('https://fonts.googleapis.com/css2?family=Sen');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@800&display=swap');
+
+body {
+    background:#F6F6F6;
+    overflow-x: hidden;
+}
 
 
 .navItems .loginButton:hover.dropdown {
@@ -26,3 +31,21 @@
     
 }
 
+.bg-whitesmoke {
+    background: #FDFDFC;
+}
+
+.main-image {
+    height:420px;
+}
+
+.showMore {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px #c9d2f3;
+    transition: .4s;
+}
+
+.bg-light {
+    background-color: white;
+}

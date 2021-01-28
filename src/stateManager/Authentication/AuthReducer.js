@@ -90,12 +90,14 @@ export const SignOutReducer = (state = logoutState , action) => {
 }
 
 export const SignInReducer = (state = loginState , action) => {
+    console.log(action);
     switch(action.type) {
         case SIGNIN_REQUEST : return {
             loading : true,
         } 
         case SIGNIN_SUCCESS :
         localStorage.setItem('token' , action.payload.token);    
+        localStorage.setItem('userId' , action.payload.user._id);
         return {
             loading :false,
             error : '',

@@ -1,16 +1,18 @@
 import styled from 'styled-components';
 
 export const DropdownMenu = styled.div`
-  background-color:#FBFBFB;
-  width:70%;
+  background-color:white;
+  width:75%;
   margin:auto;
-  max-height:${({open}) => open ? "60vh" : "0"};
+  height:${({open}) => open ? "inital" : "0"};
+  transition: height 1s ease;
   opacity: ${({open}) => open ? 1 : 0};
   display: ${({open}) => open ? 'block' : 'none'};
-  transition:max-height 1s linear;
   position:absolute;
-  left:15%;
-  z-index:10;
+  left:13%;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  z-index:10
   
 `
 export const ListGroupItem = styled.li`
@@ -18,7 +20,7 @@ export const ListGroupItem = styled.li`
    font-family:'Arial' , sans-serif;
    font-size:19px;
    font-weight:500;
-   color:black;
+   color:blueviolet;
    cursor:pointer;
    &:hover {
        color:blueviolet;

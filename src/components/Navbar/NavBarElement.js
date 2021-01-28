@@ -4,7 +4,7 @@ export const Navbar = styled.nav`
     background-color:rgb(22, 126, 245);
     width:100%;
     height:65px;
-   
+  
 `
 export const Container = styled.div`
    width:80%;

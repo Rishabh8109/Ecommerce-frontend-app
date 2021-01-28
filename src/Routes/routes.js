@@ -1,9 +1,9 @@
-import MobileSection from '../pages/Electroncs/Mobiles/MobileSection';
+import MobileSection from '../pages/Electroncs/Mobiles/child/MobileSection';
 import MobileAccessories from '../pages/Electroncs/Mobile-Accessories/MobileAccessories';
 import LaptopSection from '../pages/Electroncs/Laptop/LaptopSection';
 import FeaturedSection from '../pages/Electroncs/Featured/FeaturedSection';
 import TelevisionSection from '../pages/Electroncs/Television/TelevisionSection';
-import Main from '../pages/Electroncs/Mobiles/Main';
+import Main from '../pages/Electroncs/Mobiles/parent/Main';
 
 
 

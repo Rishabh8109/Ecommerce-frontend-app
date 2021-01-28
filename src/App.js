@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { LastLocationProvider } from 'react-router-last-location';
 import {BrowserRouter as Router  , Route , Switch  } from 'react-router-dom';
 import Navbars from './components/Navbar/Navbar';
@@ -28,7 +28,7 @@ function App() {
               <div className="col-sm-12">
                      <Switch>
                         <Route exact path="/" component={Home} />
-                        <PrivateRoutes  path="/cart" component={MyCart} />
+                        <PrivateRoutes  path="/view_cart" component={MyCart} />
                         {
                            route &&  route.map(({component , path}) => (
                                <PrivateRoutes  path={path} component={component} />

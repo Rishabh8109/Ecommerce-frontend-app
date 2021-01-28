@@ -28,6 +28,7 @@ function SignIn(props) {
             password : password
         }
       }).then(res => {
+        
          dispatch(SignInSuccess(res.data));
          setShow(true);
 
@@ -42,7 +43,7 @@ function SignIn(props) {
 
       }).catch(err => {
           setShow(true);
-          dispatch(SignInError(err.response.data.error))
+          dispatch(SignInError(err.response.data.error));
       });
    
       // clear all fields

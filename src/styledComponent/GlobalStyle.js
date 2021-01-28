@@ -45,3 +45,22 @@ export const SubTitle = styled.p`
     }
 `
 
+export const TitleH2 = styled.h2`
+ font-family: 'Roboto' , monospace;
+ color:black;
+ font-size:20px;
+ margin-bottom:1rem;
+`
+export const TitleH4 = styled(TitleH2)`
+ font-size:18px;
+ opacity:.8;
+`
+export const TitleH5 = styled(TitleH2)`
+ opacity:.7;
+ font-size:16px;
+`
+export const TitleH6 = styled(TitleH2)`
+ opacity:.6;
+ font-size:15px;
+`
+

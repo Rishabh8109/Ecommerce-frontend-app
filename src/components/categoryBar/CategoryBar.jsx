@@ -58,7 +58,7 @@ function CategoryBar() {
   
   return (
     <>
-      <Categorybar className="shadow-sm">
+      <Categorybar className="shadow-sm ">
         <Container>
           <ListGroup className="d-flex justify-content-around align-items-center">
             {categories &&

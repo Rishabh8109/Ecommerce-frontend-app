@@ -16,7 +16,7 @@ function CategoryDropdown(props ) {
    
    
   return (
-   <DropdownMenu open={open} className="shadow-sm" onMouseLeave={() => setOpen(false)}>
+   <DropdownMenu open={open} className="shadow" onMouseLeave={() => setOpen(false)}>
       <ListGroup className="px-4">
         <Row>
           {
